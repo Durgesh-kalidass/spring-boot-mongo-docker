@@ -1,1 +1,7 @@
+version: '3.3'
 
+services:
+  springboot:
+    image: docker1durgesh/spring-boot-mongoapp:VERSION
+    ports:
+      - 8080:8080
